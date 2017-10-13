@@ -24,7 +24,7 @@ DROP TABLE IF EXISTS `disciplinas`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `disciplinas` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `titulo` text NOT NULL,
+  `title` text NOT NULL,
   `descricao` text NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -48,7 +48,7 @@ DROP TABLE IF EXISTS `professor`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `professor` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `nome` varchar(150) NOT NULL,
+  `name` varchar(150) NOT NULL,
   `siape` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
